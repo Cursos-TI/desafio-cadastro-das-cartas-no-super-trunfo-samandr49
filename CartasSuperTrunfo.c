@@ -11,13 +11,7 @@
  int tursticos;
  
  printf("Digite a letra que deseja utilizar para identificar o primeiro estado (A - H): \n");
- scanf("%c", &letra1);
-
- printf("Digite o nome deste estado: \n");
- scanf(" %49s", nomeest1);
-
-    printf("Digite o número da primeira cidade, de %s (1 a 4): \n", nomeest1);
-        scanf(" %d", &numero11);
+ scanf("%c", &estado);
 
  printf("Digite o nome da primeira cidade, de %s: \n", nomeest1);
         scanf(" %49s", nomecid11);
